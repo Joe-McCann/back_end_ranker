@@ -22,8 +22,8 @@ public class User {
         return;
     }
 
-    public void createNewList(String listName, String description){
-        this.lists.put(listName, new RankList(description, new ArrayList<Item>()));
+    public void createNewList(String listName, String description, String imagePath){
+        this.lists.put(listName, new RankList(description, new ArrayList<Item>(), imagePath));
         return;
     }
 
